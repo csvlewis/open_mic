@@ -17,12 +17,10 @@ class User
   def joke_by_id(id)
     joke_with_id = []
     @jokes.each do |joke|
-    if joke.id == id
+      if joke.id == id
       joke_with_id << joke
-    end
+      end
     end
     joke_with_id[0]
   end
-
-
 end

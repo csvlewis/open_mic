@@ -2,7 +2,6 @@ require 'minitest/autorun'
 require './lib/open_mic'
 require './lib/user'
 require './lib/joke'
-require 'pry'
 
 class OpenMicTest < Minitest::Test
   def test_it_exists
