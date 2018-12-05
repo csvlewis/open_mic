@@ -1,5 +1,6 @@
 require 'minitest/autorun'
 require './lib/user'
+require './lib/joke'
 
 class UserTest < Minitest::Test
   def test_it_exists
